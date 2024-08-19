@@ -1,0 +1,123 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Bonzai;
+    src: url(../Fonts/bonzai.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'ChineseDragon';
+    src: url(../Fonts/ChineseDragon.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'shanghai';
+    src: url(../Fonts/shanghai.ttf) format('truetype');
+}
+
+/*Header*/
+    header {
+        background-color: #333333;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        padding: 1%;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    header a {
+        padding-right: 10px;
+        padding-left: 10px;
+        color: #ffffff;
+        font-family: Bonzai;
+    }
+
+    header a:visited {
+        color: #ffffff;
+    }
+
+    header a#current-page {
+        font-weight: bold;
+        color: #FFD700;
+    }
+
+/*Body, Background and Main*/
+#background-cover {
+    position: fixed;
+    background-image: url(https://images.radio-canada.ca/v1/ici-premiere/16x9/histo-bruce-lee.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index:-1;
+}
+
+    main {
+        background-color: white;
+        padding: 0px 15px 10px;
+        margin-top: 70px;
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        /*Try again to set margin: 70px auto 0px;*/
+        border: 2px solid #FFD700;
+        border-radius: 25px;
+    }
+
+    #biography-content {
+        display: flex;
+        align-items: center;
+    }
+
+    #biography-content p {
+        padding-left: 10px;
+    }
+/*Headers*/
+    h1 {
+        padding-top: 10px;
+        text-align: center;
+        font-family: 'ChineseDragon', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 3em;
+    }
+
+    h2 {
+        padding-top: 10px;
+        font-size: 2em;
+        font-family: 'shanghai', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    h3 {
+        padding-top: 8px;
+        font-size: 1.5em;
+        font-family: 'shanghai', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+/*Links*/
+    a {
+        color: #000;
+    }
+
+    a:hover {
+        font-weight: bold;
+    }
+
+    a:visited {
+        color: #FFD700;
+    }
+
+/*Footer*/
+    footer {
+        color: #FFD700;
+        font-weight: bold;
+        text-align: center;
+        text-shadow: 1px 1px 1px #000;
+    }

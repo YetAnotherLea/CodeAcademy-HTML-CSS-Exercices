@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="descritption" content="Bruce Lee's filmography">
+        <title>HTML Exercice - Bruce Lee, p3</title>
+        <link href="./Bruce Lee CSS/bruce-lee_fimography.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <a href="./bruce-lee_cinematic-career.html">Cinematic Career</a>
+            <span class="header-emoji">🥋</span>
+            <a href="./bruce-lee_cultural-and-political-impact.html">Cultural and Political Impact</a>
+            <span class="header-emoji">🥋</span>
+            <a id="current-page" href="./bruce-lee_filmography.html">Filmography</a>
+        </header>
+
+        <main>
+            <h1>Bruce Lee's Filmography</h1>
+            <hr>
+            <br>
+            <article>
+                <p>Bruce Lee's impact on the world of entertainment is undeniable, with a legacy that extends 
+                    far beyond his roles on the silver screen.<br> 
+                    Known for his <strong>lightning-fast moves</strong>, <strong>charismatic presence</strong>, and 
+                    <strong>groundbreaking martial arts choreography</strong>, Lee redefined action films and became an international icon.<br> 
+                    However, his contributions were not limited to cinema—Bruce also made 
+                    significant appearances on television, where he captivated audiences with his performances in 
+                    various series.<br><br>
+                    In this article, we explore Bruce Lee's extensive filmography, highlighting the <strong>key films</strong> and 
+                    <strong>TV shows</strong> that cemented his status as a global legend.</p>
+            </article>
+            <br>
+            <table>
+                <!--Get ride of the Link column and add the links directly to the name of the media.-->
+                <thead>
+                    <tr>
+                        <th scope="col">Name of the Movie/TV Serie</th>
+                        <th scope="col">Date of release</th>
+                        <th scope="col">Role played</th>
+                        <th scope="col">Media</th>
+                    </tr>
+                </thead>
+                <!--You can't use <div> in a <tbody> elment. <tbody> should only contain <tr> elements-->
+                <tbody id="Movies">
+                    <tr>
+                        <td><a href="https://www.youtube.com/watch?v=dWcBmgH0AR4&ab_channel=LeeJunfan" target="_blank">The Orphan</a></td>
+                        <td>1960</td> 
+                        <td>Ah Sam</td>
+                        <td rowspan="7">Movie</td> 
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.youtube.com/watch?v=mIgTl-rXmOk&ab_channel=RottenTomatoesClassicTrailers" target="_blank">Marlowe</a></td>
+                        <td>1969</td> 
+                        <td>Winslow Wong</td> 
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.youtube.com/watch?v=eFJmVD0qHHg&ab_channel=ArrowVideo" target="_blank">The Big Boss</a></td>
+                        <td>1971</td> 
+                        <td>Cheng Chao-an</td>  
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.youtube.com/watch?v=oO9PVJdgu4M&ab_channel=ArrowVideo" target="_blank">Fist of Fury</a></td>
+                        <td rowspan="2">1972</td> 
+                        <td>Chen Zhen</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.youtube.com/watch?v=72giNDkKhSE&ab_channel=ArrowVideo" target="_blank">The Way of the Dragon</a></td>
+                        <td>Tang Lung</td>  
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.youtube.com/watch?v=tB-QGOChuQc&ab_channel=myxmovie" target="_blank">Enter the Dragon</a></td>
+                        <td>1973</td> 
+                        <td>Lee</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.youtube.com/watch?v=F9TFXin2zns&ab_channel=RETROCINEMAGROUP" target="_blank">Game of Death</a></td>
+                        <td>1978</td>
+                        <td>Billy Lo</td>
+                    </tr>
+                </tbody>
+                <tbody id="TV-Series">
+                    <tr>
+                        <td><a href="https://www.youtube.com/watch?v=kK4H-LkrQjQ&ab_channel=TeeVeesGreatest" target="_blank">Batman</a></td>
+                        <td rowspan="2">1966-1967</td>
+                        <td rowspan="2">Kato</td>
+                        <td rowspan="6">TV Serie</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.youtube.com/watch?v=PMA-taGtfXs&t=1s&ab_channel=SonyPicturesEntertainment" target="_blank">The Green Hornet</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.youtube.com/watch?v=2KE-Ze-VPeE&ab_channel=TeeVeesGreatest" target="_blank">Ironside</a></td>
+                        <td>1967-1975</td>
+                        <td>Leon Soo</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.youtube.com/watch?v=xsbGee5ICXw&ab_channel=GilmoreBox" target="_blank">Blondie</a></td>
+                        <td>1968</td>
+                        <td>Mr Yoto</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.youtube.com/watch?v=R5L6PWNaZCE&ab_channel=DavidGideon" target="_blank">Here Come the Brides</a></td>
+                        <td>1969</td>
+                        <td>Lin</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.youtube.com/watch?v=9QIqodfW2RI&ab_channel=70sTVDetectives" target="_blank">Longstreet</a></td>
+                        <td>1971</td>
+                        <td>Li Tsung</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr> <!--I don't understand why it doesn't center with only html. tfoot property? browser? mistake?-->
+                        <td colspan="4"><a href="https://en.wikipedia.org/wiki/Bruce_Lee_filmography" target="_blank">See More</a></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </main>
+
+        <footer>
+            <hr>
+            <h6><em>
+                © This article was redacted as an exercise for basic HTML.
+                The text was generated by ChatGPT. I do not own any of the media used on this page.
+                </em>
+            </h6>
+        </footer>
+        <div id="background-cover"></div>
+    </body>
+</html>
