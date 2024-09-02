@@ -1,14 +1,24 @@
 # CodeAcademy-HTML-CSS-Exercices
-This is a website created for practicing CodeAcademie's lessons.
-It has been built with practice in mind, not design. It's ugly, but I still intend to use it to practice on a later date.
+This repository contains a website created to practice the HTML and CSS lessons from CodeAcademy. It has been built with a focus on practice rather than design. While it may not look polished, it serves as a valuable tool for honing my skills, and I plan to use it for further practice in the future.
 
-Website adress: https://yetanotherlea.github.io/CodeAcademy-HTML-CSS-Exercices/
+### [LINK TO THE WEBSITE](https://yetanotherlea.github.io/CodeAcademy-HTML-CSS-Exercices/)
 
 ## Why Bruce Lee?
-I love chinese culture and I thought it would be more interesting and challenging for me to create a blog on something that meet my interests instead of constructing a project on some random thing. 
+I have a deep appreciation for Chinese culture, and I thought it would be more interesting and challenging to create a blog on a topic that aligns with my interests rather than constructing a project on a random subject. Bruce Lee, as an iconic figure in both Chinese culture and martial arts, serves as a fitting inspiration for this project.
 
-## Main Problems I encounter
-- The website doesn't adapt well to tablets or phones. Have to work on that.
-- My code feels messy. Have to clean it.
+## Technologies Used
+- HTML
+- CSS
+- VSCode
 
-## More to come...
+## Main Problems Encountered
+- ### Responsive Design:
+  The website doesn't adapt well to tablets or phones. I need to work on improving its responsiveness.
+- ### Code Organization:
+  My code feels messy and could benefit from some refactoring to improve readability and maintainability.
+
+## Future Plans
+- Enhance the design and aesthetics of the website.
+- Improve the site's responsiveness across different devices.
+- Clean up and organize the codebase.
+- Add more content and functionality as I progress in my learning.
